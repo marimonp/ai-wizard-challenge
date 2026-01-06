@@ -1,0 +1,43 @@
+Run #1
+
+ ⏳ Initializing AI Model (MusicGen)...
+Loading weights: 100% 611/611 [00:01<00:00, 632.47it/s, Materializing param=text_encoder.shared.weight]MusicgenForConditionalGeneration LOAD REPORT from: facebook/musicgen-small
+Key                                           | Status     |  | 
+----------------------------------------------+------------+--+-
+decoder.model.decoder.embed_positions.weights | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+--- Starting Nimbus Music Gen (Real AI Mode) ---
+
+💳 [Billing Agent]: Processing subscription for user_001...
+
+🎵 [Music Agent]: Composing track for prompt: 'lo-fi hip hop beat with piano'...
+   (Processing on CPU... please wait ~2 mins)...
+✅ SUCCESS! Real audio generated: track_20260103_221657.wav
+📱 [Marketing Agent]: Generated Post: ✨ New AI Drop! Generated 'lo-fi hip hop beat with piano'. Listen now: track_20260103_221657.wav #CloudWalk #AIWizard
+
+🎧 [Bonus Feature]: Building Playlist...
+✅ Playlist 'cloudwalk_playlist.m3u' updated with 1 verified audio tracks.
+
+Run #2
+
+ ⏳ Initializing AI Model (MusicGen)...
+Loading weights: 100% 611/611 [00:01<00:00, 611.73it/s, Materializing param=text_encoder.shared.weight]MusicgenForConditionalGeneration LOAD REPORT from: facebook/musicgen-small
+Key                                           | Status     |  | 
+----------------------------------------------+------------+--+-
+decoder.model.decoder.embed_positions.weights | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+--- Starting Nimbus Music Gen (Real AI Mode) ---
+
+💳 [Billing Agent]: Processing subscription for user_001...
+
+🎵 [Music Agent]: Composing track for prompt: 'lo-fi hip hop beat with piano'...
+   (Processing on CPU... please wait ~2 mins)...
+✅ SUCCESS! Real audio generated: track_20260103_222242.wav
+📱 [Marketing Agent]: Generated Post: ✨ New AI Drop! Generated 'lo-fi hip hop beat with piano'. Listen now: track_20260103_222242.wav #CloudWalk #AIWizard
+
+🎧 [Bonus Feature]: Building Playlist...
+✅ Playlist 'cloudwalk_playlist.m3u' updated with 2 verified audio tracks.
